@@ -1,4 +1,5 @@
 import React from 'react';
+import Popup from './Popup';
 
 function TablaApuestas() {
   return (
@@ -24,11 +25,7 @@ function TablaApuestas() {
                     <br />
                     Barcelona
                 </td>
-                <td><button className="btn glass bg-cover bg-slate-400">Real Madrid</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Barcelona</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
+                <td><Popup></Popup></td>
             </tr>
             {/* row 2 */}
             <tr className=" bg-cover bg-slate-200">
@@ -37,11 +34,6 @@ function TablaApuestas() {
                     <br />
                     Inter de Milan
                 </td>
-                <td><button className="btn glass bg-cover bg-slate-400">City</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Inter</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
             </tr>
             {/* row 3 */}
             <tr className=" bg-cover bg-slate-200">
@@ -50,11 +42,6 @@ function TablaApuestas() {
                     <br />
                     Chivas
                 </td>
-                <td><button className="btn glass bg-cover bg-slate-400">America</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">Chivas</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
-                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
             </tr>
           </tbody>
         </table>
