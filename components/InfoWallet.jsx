@@ -4,7 +4,7 @@ function InfoWallet() {
   return (
     <div>
       <div className="card w-96 bg-base-100 shadow-xl">
-        <div className="card-body">
+        <div className="card-body bg-cover bg-slate-200">
           <h1 className="text-center">Wallet info</h1>
           <div className="grid grid-cols-2 gap-4">
             <p >Wallet: </p>

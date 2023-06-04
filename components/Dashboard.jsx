@@ -3,17 +3,17 @@ import React from 'react';
 function Dashboard() {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100  bg-cover bg-slate-400 ">
         <div className="flex-none">
-          <div className="drawer">
+          <div className="drawer ">
             <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content">
-              <label htmlFor="my-drawer" className="cursor-pointer">
+            <div className="drawer-content ">
+              <label htmlFor="my-drawer" className="cursor-pointer ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  className="inline-block w-5 h-5 stroke-current"
+                  className="inline-block w-5 h-5 stroke-current "
                 >
                   <path
                     strokeLinecap="round"
@@ -26,7 +26,7 @@ function Dashboard() {
             </div>
             <div className="drawer-side">
               <label htmlFor="my-drawer" className="drawer-overlay"></label>
-              <ul className="menu p-4 w-32 h-full bg-base-200 text-base-content">
+              <ul className="menu p-4 w-32 h-full bg-base-200 text-base-content bg-cover bg-slate-400">
                 <h2 className="text-2xl font-bold mb-4">MENU</h2> {/* Nuevo título "MENU" dentro del drawer */}
                 <li>
                   <a href='/casino'>Casino</a>

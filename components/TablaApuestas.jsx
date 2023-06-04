@@ -7,7 +7,7 @@ function TablaApuestas() {
         <table className="table text-center">
           {/* head */}
           <thead>
-            <tr className="text-center">
+            <tr className="text-center bg-cover bg-slate-300">
                 <th></th>
               <th>1</th>
               <th>X</th>
@@ -18,43 +18,43 @@ function TablaApuestas() {
           </thead>
           <tbody>
             {/* row 1 */}
-            <tr className="hover">
+            <tr className=" bg-cover bg-slate-200">
                 <td>
                     Real Madrid
                     <br />
                     Barcelona
                 </td>
-                <td><button className="btn glass">Real Madrid</button></td>
-                <td><button className="btn glass">Empate</button></td>
-                <td><button className="btn glass">Barcelona</button></td>
-                <td><button className="btn glass">1.5</button></td>
-                <td><button className="btn glass">3.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Real Madrid</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Barcelona</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
             </tr>
             {/* row 2 */}
-            <tr className="hover">
+            <tr className=" bg-cover bg-slate-200">
                 <td>
                     Manchester City
                     <br />
                     Inter de Milan
                 </td>
-                <td><button className="btn glass">City</button></td>
-                <td><button className="btn glass">Empate</button></td>
-                <td><button className="btn glass">Inter</button></td>
-                <td><button className="btn glass">1.5</button></td>
-                <td><button className="btn glass">3.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">City</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Inter</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
             </tr>
             {/* row 3 */}
-            <tr className="hover">
+            <tr className=" bg-cover bg-slate-200">
                 <td>
                     America
                     <br />
                     Chivas
                 </td>
-                <td><button className="btn glass">America</button></td>
-                <td><button className="btn glass">Empate</button></td>
-                <td><button className="btn glass">Chivas</button></td>
-                <td><button className="btn glass">1.5</button></td>
-                <td><button className="btn glass">3.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">America</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Empate</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">Chivas</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">1.5</button></td>
+                <td><button className="btn glass bg-cover bg-slate-400">3.5</button></td>
             </tr>
           </tbody>
         </table>
