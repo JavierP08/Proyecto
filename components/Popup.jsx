@@ -161,7 +161,7 @@ function Popup() {
 
   return (
     <div>
-        <button className="btn" onClick={()=>window.my_modal_3.showModal()}>open modal</button>
+        <button className="btn" onClick={()=>window.my_modal_3.showModal()}>Apuesta</button>
         <dialog id="my_modal_3" className="modal">
             <form method="dialog" className="modal-box">
                 <button htmlFor="my-modal-3" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"> ✕ </button>
