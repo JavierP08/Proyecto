@@ -17,12 +17,10 @@ function Dashboard() {
             </label>
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
               <li>
-                <a className="justify-between" href='/perfil'>
-                  Profile
+                <a className="justify-between" href='/paginaPrincipal'>
+                  Log out
                 </a>
               </li>
-              <li><a href='/paginaPrincipal'>Login</a></li>
-              <li><a >Register</a></li>
             </ul>
           </div>
         </div>
