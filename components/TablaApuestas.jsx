@@ -9,12 +9,8 @@ function TablaApuestas() {
           {/* head */}
           <thead>
             <tr className="text-center bg-cover bg-slate-300">
-                <th></th>
-              <th>1</th>
-              <th>X</th>
-              <th>2</th>
-              <th>Más de ...</th>
-              <th>Menos de ...</th>
+                <th> Partido </th>
+                <th> </th>
             </tr>
           </thead>
           <tbody>
@@ -26,22 +22,6 @@ function TablaApuestas() {
                     Barcelona
                 </td>
                 <td><Popup></Popup></td>
-            </tr>
-            {/* row 2 */}
-            <tr className=" bg-cover bg-slate-200">
-                <td>
-                    Manchester City
-                    <br />
-                    Inter de Milan
-                </td>
-            </tr>
-            {/* row 3 */}
-            <tr className=" bg-cover bg-slate-200">
-                <td>
-                    America
-                    <br />
-                    Chivas
-                </td>
             </tr>
           </tbody>
         </table>
