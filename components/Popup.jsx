@@ -167,11 +167,7 @@ function Popup() {
                 <button htmlFor="my-modal-3" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"> ✕ </button>
                 {publicKey ? (
                 <div className="flex flex-col place-items-center  justify-center">
-                    <h1 className="text 2x1 font-bold text-white">tu numero de wallet es {publicKey} </h1>
-
-                    <h1 className="text 2x1 font-bold text-white"> Tu balance es {balance} SOL </h1>
-
-                    <h1 className="text 2x1 font-bold text-white"> Cantidad de SOL: </h1>
+                    <p className="text 2x1 font-bold text-black"> Cantidad de SOL: </p>
 
                     <input className="h-8 w-72 mt-4 border-2 border-black" type="text" onChange={handleAmountChange}/>
 
