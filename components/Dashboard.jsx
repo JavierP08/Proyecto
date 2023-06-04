@@ -22,7 +22,7 @@ function Dashboard() {
                 </a>
               </li>
               <li><a href='/paginaPrincipal'>Login</a></li>
-              <li><a>Register</a></li>
+              <li><a >Register</a></li>
             </ul>
           </div>
         </div>

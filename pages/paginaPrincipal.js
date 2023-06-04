@@ -65,6 +65,9 @@ const Home = () => {
 
     toast.success("Tu wallet esta conectada");
     getBalances(publicKey);
+
+    window.location.href = 'http://localhost:3000/';
+
   };
 
   const signOut = async() => {
@@ -166,44 +169,21 @@ const Home = () => {
       <Dashboard></Dashboard>
       <div className="flex flex-col w-screen h-screen bg-black">
           <div className="flex flex-col py-24 place-items-center justify-center">
-            <h1 className="text-5xl fontbold pb-10 text-emerald-300">
-              Super Teams
+            <h1 className="text-5xl fontbold pb-10 text-emerald-300 text-center">
+              Bienvenido a SOLANABET
+              <br></br>
+              para comenzar conecta tu Phantom Wallet!
             </h1>
 
             {publicKey ? (
                 <div className="flex flex-col place-items-center  justify-center">
 
-                <br /> 
-                <h1 className="text 2x1 font-bold text-white">
-                  tu numero de wallet es {publicKey}
-                </h1>
-
-                <br />
-                <h1 className="text 2x1 font-bold text-white">
-                  Tu balance es {balance} SOL
-                </h1>
-                <br />
-
-
-                <h1 className="text 2x1 font-bold text-white">
-                  Cantidad de SOL:
-                </h1>
-                <input
-                  className="h-8 w-72 mt-4 border-2 border-black"
-                  type="text"
-                  onChange={handleAmountChange}
-                />
-                <br/>
-                <button
-                type="submit"
-                className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
-                onClick={() =>{
-                  handleSubmit();
-                }}
-              >
-                Enviar SOL
-              </button>
-
+              
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+               
               <br />
                 <button
                 type="submit"
@@ -218,7 +198,7 @@ const Home = () => {
               </div>
   ) : (
             <div className="flex flex-col place-items-center  justify-center">
-              <button
+              <button 
                 type="submit"
                 className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white"
                 onClick={() =>{
