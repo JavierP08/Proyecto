@@ -7,11 +7,9 @@ return(
     <h1 className="card-title">Historial de apuestas</h1>
     <p>Sin apuestas</p>
     <div className="card-actions ">
-      <ul>
-        <li>apuesta1</li>
-        <li>apuesta2</li>
-        <li>apuesta3</li>
-      </ul>
+      <tr>
+        
+      </tr>
     </div>
   </div>
 </div>
