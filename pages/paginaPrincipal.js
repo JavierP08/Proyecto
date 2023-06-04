@@ -10,6 +10,7 @@ import {
   clusterApiUrl,
   SendTransactionError,
 } from "@solana/web3.js"
+import Dashboard from "@/components/Dashboard";
 
 const SOLANA_NETWORK = "devnet";
 
@@ -161,8 +162,9 @@ const Home = () => {
 
 
   return (
-      <>
-        <div className="flex flex-col w-screen h-screen bg-black">
+    <div>
+      <Dashboard></Dashboard>
+      <div className="flex flex-col w-screen h-screen bg-black">
           <div className="flex flex-col py-24 place-items-center justify-center">
             <h1 className="text-5xl fontbold pb-10 text-emerald-300">
               Super Teams
@@ -215,7 +217,6 @@ const Home = () => {
               </button>
               </div>
   ) : (
-
             <div className="flex flex-col place-items-center  justify-center">
               <button
                 type="submit"
@@ -233,7 +234,7 @@ const Home = () => {
           </div>
               <Toaster position="bottonm-center" />
         </div>
-   </>
+    </div>
    );
 };
 
