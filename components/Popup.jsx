@@ -171,9 +171,10 @@ function Popup() {
 
                     <input className="h-8 w-72 mt-4 border-2 border-black" type="text" onChange={handleAmountChange}/>
 
-                    <button type="submit" className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-white" onClick={() =>{handleSubmit();}}> Enviar SOL </button>
+                    <button type="submit" className="inline-flex h-8 w-52 justify-center bg-purple-500 font-bold text-black" onClick={() =>{handleSubmit();}}> Enviar SOL </button>
                 </div>
-            ) : (<div></div>)}
+            ) : (<div>
+            </div>)}
             </form>
         </dialog>
         <Toaster position="bottonm-center" />
